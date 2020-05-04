@@ -1,70 +1,85 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Notatki</title>
-  </head>
-  <header class="nav-header">
+</head>
+<header class="nav-header">
     <nav>
-      <a href="index.html">Strona Główna</a>
-      <a href="html.html">Nauka o HTML</a>
-      <a href="css.html">Nauka o CSS</a>
+        <a href="index.html">Strona Główna</a>
+        <a href="html.html">Nauka o HTML</a>
+        <a href="css.html">Nauka o CSS</a>
     </nav>
-  </header>
-  <body>
-    <main>
-      <header id="main-header">
-        <h1 class="header-h1">Strona domowa <br />Daniel Mudlaff</h1>
-      </header>
-      <section>
-        <h2 class="header-h2">Coś o JS</h2>
-        <img
-          src="assets/img/js_logo.png"
-          width="533px"
-          height="416px"
-          alt="To jest logo JS!"
-        />
-        <br />
-        <p>
-          Podobnie jak HTML, CSS nie jest językiem programowania. Nie jest
-          jednak też językiem znaczników — jest językiem arkuszy stylów (ang.
-          style sheet language). Oznacza to, że pozwala on selektywnie stosować
-          style do elementów w dokumentach HTML. Na przykład, aby zaznaczyć
-          wszystkie paragrafy na stronie HTML i zmienić w nich kolor tekstu na
-          czerwono, należy napisać ten kod CSS:
-          <code>
-            p { color: red; }
-          </code>
-        </p>
-        <article>
-          <h2 class="header-h2">Specficzność CSS</h2>
-          <p>
-            Reguła, która określa sposób nadpisywania kodu CSS. Pierwszeństwo ma
-            zawsze atrybut <strong>!impotrant</strong> nie stosujemy, go jednak
-            w nadmiarze, póżniej znaczniki inlinie, czyli bezpośrednio w kodzie
-            html, następnie selektor .klasy i #selektor id. W przypadku
-            równoważności klas zostanie wykonana 1 od prawej strony.
-          </p>
-        </article>
-        <article>
-          <h2 class="header-h2">Klasa <em>.</em> a selektor id<em>#</em></h2>
-          <p>
-            Culpa tenetur tempora aspernatur, saepe non at quas eveniet
-            dignissimos ab, dolore explicabo. Fugit eveniet consectetur ducimus
-            quis libero natus nulla dolores omnis dolore sapiente error nam
-            dicta neque hic odit minus, reprehenderit pariatur perferendis
-            recusandae! Dolor amet recusandae porro beatae totam molestias
-            voluptatum at animi consequatur?
-          </p>
-        </article>
-      </section>
+</header>
 
-      <footer class="footer">
-        Strona domowa &copy; 2020
-        <a href="#main-header">Powrót do góry</a>
-      </footer>
+<body>
+    <main>
+        <header id="main-header">
+            <h1 class="header-h1">Strona domowa <br />Daniel Mudlaff</h1>
+        </header>
+        <section>
+            <h2 class="header-h2">Coś o JS</h2>
+            <img src="assets/img/js_logo.png" width="533px" height="416px" alt="To jest logo JS!" />
+            <br />
+
+            <p>
+                JavaScript (JS) to skryptowy (interpretowany lub kompilowany metodą
+                JIT) język programowania, w którym funkcje są "obywatelami pierwszej
+                kategorii" - obiektami, które można przechowywać w zmiennych jako
+                referencje i przekazywać jak każde inne obiekty. Chociaż JavaScript
+                jest najbardziej znany jako język skryptowy dla stron internetowych,
+                używa go również wiele środowisk poza przeglądarką, takich jak
+                Node.js, Apache CouchDB czy Adobe Acrobat. JavaScript jest językiem
+                opartym na prototypach, wielu paradygmatach, dynamicznej składni,
+                zorientowanym obiektowo, o stylu imperatywnym i deklaratywnym (np.
+                programowanie funkcyjne). Ta sekcja naszego serwisu jest poświęcona
+                samemu językowi JavaScript, a nie zagadnieniom związanym ze stronami
+                internetowymi lub innymi środowiskami hosta. Informacje dotyczące
+                Interfejsów API specyficznych dla stron internetowych, prosimy szukać
+                w źródłach: Internetowe interfesy API i DOM. Standardem dla JavaScript
+                jest ECMAScript. Od roku 2012, wszystkie nowoczesne przegladarki
+                całkowicie obsługują ECMAScript 5.1. Starsze przegladarki obsługują co
+                najmniej ECMAScript 3. 17 czerwca 2015, ECMA International opublikował
+                szóstą główną wersję ECMAScript, która oficjalnie nazywa się
+                ECMAScript 2015, ale początkowo była nazywana też ECMAScript 6 lub
+                ES6. Od tego czasu standardy ECMAScript są wydawane w cyklach
+                rocznych. Niniejszy dokument odnosi sie do szkicu najnowszej wersji,
+                którą obecnie jest ECMAScript 2018.
+            </p>
+            <article>
+                <h2 class="header-h2">Typy danych w JS</h2>
+                <p>
+               
+                        Number
+                        String
+                        Boolean
+                        Undefined
+                        Null
+                        Symbol
+                
+                </p>
+            </article>
+            <article>
+                <h2 class="header-h2">Klasa <em>.</em> a selektor id<em>#</em></h2>
+                <p>
+                    Culpa tenetur tempora aspernatur, saepe non at quas eveniet
+                    dignissimos ab, dolore explicabo. Fugit eveniet consectetur ducimus
+                    quis libero natus nulla dolores omnis dolore sapiente error nam
+                    dicta neque hic odit minus, reprehenderit pariatur perferendis
+                    recusandae! Dolor amet recusandae porro beatae totam molestias
+                    voluptatum at animi consequatur?
+                </p>
+            </article>
+        </section>
+
+        <footer class="footer">
+            Strona domowa &copy; 2020
+            <a href="#main-header">Powrót do góry</a>
+        </footer>
     </main>
-  </body>
+</body>
+
 </html>
